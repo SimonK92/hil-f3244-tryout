@@ -1,0 +1,43 @@
+[{
+	"PurchaseOrder": "004500364320",
+	"PurchaseOrderItem": "PO01_ITEM01",
+	"PurchasingDocumentType": "",
+	"PurOrdPurchasingOrganization": "",
+	"PurOrdPurchasingGroup": "",
+	"Vendor": "GENLIEF",
+	"VendorName": "General Vendor",
+	"VendorCityName": "Hamburg",
+	"Material": "123456789012345678",
+	"MaterialName": "Laptop Vantage 10",
+	"__metadata": {
+		"__deferred": {
+			"uri": "PoHelpSet(PurchaseOrder='4500364320',PurchaseOrderItem='PO01_ITEM01')",
+			"type": "MMIM_GR4PO_DL_TDC.PoHelp"
+		}
+	}
+}, {
+	"PurchaseOrder": "004500364320",
+	"PurchaseOrderItem": "PO01_ITEM02",
+	"PurchasingDocumentType": "",
+	"PurOrdPurchasingOrganization": "",
+	"PurOrdPurchasingGroup": "",
+	"Vendor": "GENLIEF",
+	"VendorName": "General Vendor",
+	"VendorCityName": "Hamburg",
+	"Material": "123456789012348888",
+	"MaterialName": "Power Supply",
+	"__metadata": {
+		"__deferred": {
+			"uri": "PoHelpSet(PurchaseOrder='4500364320',PurchaseOrderItem='PO01_ITEM02')",
+			"type": "MMIM_GR4PO_DL_TDC.PoHelp"
+		}
+	}
+}, {
+	"PurchaseOrder": "004500364323",
+	"PurchaseOrderItem": "PO01_ITEM03",
+	"Vendor": "B",
+	"VendorName": "BERND",
+	"VendorCityName": "Hamburg",
+	"Material": "123456789987654321",
+	"MaterialName": "IPhone"
+}]

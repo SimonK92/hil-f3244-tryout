@@ -1,0 +1,174 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "T22"
+    },
+    {
+      "path": "/sap/bc/ui5_ui5",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5"
+      },
+      "description": "T22"
+    },
+    {
+      "path": "/resources/ui/s2p/mm/im/lib/materialmaster",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/mmimreusemats1",
+        "preferLocal": true
+      },
+      "description": "ui/s2p/mm/im/lib/materialmaster Reuse Library"
+    },
+    {
+      "path": "/resources/sap/se/mi/plm/lib/attachmentservice",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/plm_ath_cres1",
+        "preferLocal": true
+      },
+      "description": "sap/se/mi/plm/lib/attachmentservice Reuse Library"
+    },
+    {
+      "path": "/resources/sap/s4h/cfnd/featuretoggle",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/featuretoggles1",
+        "preferLocal": true
+      },
+      "description": "sap/s4h/cfnd/featuretoggle Reuse Library"
+    },
+    {
+      "path": "/webapp/resources/ui/s2p/mm/im/lib/materialmaster",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/mmimreusemats1",
+        "preferLocal": true
+      },
+      "description": "ui/s2p/mm/im/lib/materialmaster Reuse Library"
+    },
+    {
+      "path": "/webapp/resources/sap/se/mi/plm/lib/attachmentservice",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/plm_ath_cres1",
+        "preferLocal": true
+      },
+      "description": "sap/se/mi/plm/lib/attachmentservice Reuse Library"
+    },
+    {
+      "path": "/webapp/resources/sap/s4h/cfnd/featuretoggle",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/featuretoggles1",
+        "preferLocal": true
+      },
+      "description": "sap/s4h/cfnd/featuretoggle Reuse Library"
+    },
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.84.27"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.84.27"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/dist/resources/ui/s2p/mm/im/lib/materialmaster",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/mmimreusemats1",
+        "preferLocal": true
+      },
+      "description": "ui/s2p/mm/im/lib/materialmaster Reuse Library"
+    },
+    {
+      "path": "/dist/resources/sap/se/mi/plm/lib/attachmentservice",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/plm_ath_cres1",
+        "preferLocal": true
+      },
+      "description": "sap/se/mi/plm/lib/attachmentservice Reuse Library"
+    },
+    {
+      "path": "/dist/resources/sap/s4h/cfnd/featuretoggle",
+      "target": {
+        "type": "destination",
+        "name": "T22",
+        "entryPath": "/sap/bc/ui5_ui5/sap/featuretoggles1",
+        "preferLocal": true
+      },
+      "description": "sap/s4h/cfnd/featuretoggle Reuse Library"
+    },
+    {
+      "path": "/dist/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.84.27"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/dist/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.84.27"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.84.27"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.84.27"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ],
+  "sendWelcomeFileRedirect": true
+}

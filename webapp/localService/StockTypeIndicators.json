@@ -1,0 +1,10 @@
+[{
+	"StockType": "",
+	"StockTypeName": "Unrestricted Stock"
+}, {
+	"StockType": "3",
+	"StockTypeName": "Blocked Stock"
+}, {
+	"StockType": "2",
+	"StockTypeName": "Quality Inspection"
+}]
