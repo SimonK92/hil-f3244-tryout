@@ -11,9 +11,6 @@ sap.ui.component.load({
 
 this.s2p.mm.im.goodsreceipt.purchaseorder.Component.extend("s2p.mm.im.goodsreceipt.purchaseorder.GR4POS1Extension.Component", {
 	metadata: {
-		version: "1.0.0",
-		config: {},
-
-		customizing: {}
+		manifest: "json"
 	}
 });

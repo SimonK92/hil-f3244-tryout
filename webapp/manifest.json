@@ -7,6 +7,8 @@
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
+		"dataSources": {
+		},
 		"title": "{{appTitle}}"
 	},
 	"sap.ui": {
@@ -21,12 +23,23 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": ["sap_hcb", "sap_bluecrystal"]
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_bluecrystal"
+		]
 	},
 	"sap.ui5": {
 		"_version": "1.1.0",
 		"dependencies": {
-			"minUI5Version": "1.102.4"
+			"minUI5Version": "1.78.4"
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "s2p.mm.im.goodsreceipt.purchaseorder.i18n.i18n"
+				}
+			}
 		},
 		"componentUsages": {
 			"attachmentReuseComponent": {
@@ -36,7 +49,13 @@
 		},
 		"extends": {
 			"component": "s2p.mm.im.goodsreceipt.purchaseorder",
-			"extensions": {}
+			"extensions": {
+				"sap.ui.controllerExtensions": {
+					"s2p.mm.im.goodsreceipt.purchaseorder.controller.S1": {
+						"controllerName": "s2p.mm.im.goodsreceipt.purchaseorder.GR4POS1Extension.controller.S1Custom"
+					}
+				}
+			}
 		},
 		"contentDensities": {
 			"compact": true,
